@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Casa de los Taladros S.R.L :: Tel. 615-628 RSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+        <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body class="animsition">
+        <div id="body">
+
+            <!-- Header -->
+            <header class="header1">
+                <div class="container-menu-header">
+                    <div class="topbar">
+                        <div class="topbar-social">
+                            <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                            <a href="#" class="topbar-social-item fa fa-twitter"></a>
+                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                        </div>
+
+                        <span class="topbar-child1">
+                        </span>
+
+                        <div class="topbar-child2">
+                            <span class="topbar-email">
+                                casadelostaladros@mail.com
+                            </span>
+
+                        </div>
+                    </div>
+
+                    <div class="wrap_header">
+                        <!-- Logo -->
+                        <a href="index.html" class="logo">
+                            <img src="images/icons/logo.png" alt="IMG-LOGO">
+                        </a>
+
+                        <!-- Menu -->
+                        <div class="wrap_menu">
+                            <nav class="menu">
+                                <ul class="main_menu">
+                                    <li class="sale-noti"><a href="index.html">Inicio</a></li>
+                                    <li onclick="emp();"><a href="#">Nosotros</a></li>
+                                    <li onclick="prod();"><a href="#">Maquinas</a></li>
+                                    <li onclick="accs();"><a href="#">Accesorios y Repuestos</a></li>
+                                    <!--<li><a href="#">Repuestos</a></li>-->
+                                    <li onclick="serv();"><a href="#">Servicios</a></li>
+                                    <li onclick="nove();"><a href="#">Novedades</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!-- Header Iconos -->
+                        <div class="header-icons">
+                            <a href="#" class="header-wrapicon1 dis-block" onclick="user();">
+                                <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                            </a>
+
+                            <span class="linedivide1"></span>
+
+                            <div class="header-wrapicon2">
+                                <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                                <span class="header-icons-noti">0</span>
+
+                                <!--Header carrito--> 
+                                <div class="header-cart header-dropdown">
+                                    <ul class="header-cart-wrapitem">
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-01.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Taladro
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x 350.000
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-02.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Amoladora
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x590.000
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-03.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Accesorios
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x 117.000
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="header-cart-total">
+                                        Total: 1.057.000
+                                    </div>
+
+                                    <div class="header-cart-buttons">
+                                        <div class="header-cart-wrapbtn">
+                                            <a onclick="cart();"  href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                                Ir al Carrito
+                                            </a>
+                                        </div>
+
+                                        <div class="header-cart-wrapbtn">
+                                            <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                                Comprar
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Header Mobile -->
+                <div class="wrap_header_mobile">
+                    <!-- Logo mobile -->
+                    <a href="index.html" class="logo-mobile">
+                        <img src="images/icons/logo.png" alt="IMG-LOGO">
+                    </a>
+
+                    <div class="btn-show-menu">
+                        <!-- Header Iconos mobile -->
+                        <div class="header-icons-mobile">
+                            <a href="#" class="header-wrapicon1 dis-block">
+                                <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                            </a>
+
+                            <span class="linedivide2"></span>
+
+                            <div class="header-wrapicon2">
+                                <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                                <span class="header-icons-noti">0</span>
+
+                                <!--Header carrito mobile--> 
+                                <div class="header-cart header-dropdown">
+                                    <ul class="header-cart-wrapitem">
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-01.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Taladro
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x 350.000
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-02.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Amoladora
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x590.000
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                        <li class="header-cart-item">
+                                            <div class="header-cart-item-img">
+                                                <img src="images/item-cart-03.jpg" alt="IMG">
+                                            </div>
+
+                                            <div class="header-cart-item-txt">
+                                                <a href="#" class="header-cart-item-name">
+                                                    Accesorios
+                                                </a>
+
+                                                <span class="header-cart-item-info">
+                                                    1 x 117.000
+                                                </span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="header-cart-total">
+                                        Total: 1.057.000
+                                    </div>
+
+                                    <div class="header-cart-buttons">
+                                        <div class="header-cart-wrapbtn">
+                                            <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                                Ir al Carrito
+                                            </a>
+                                        </div>
+
+                                        <div class="header-cart-wrapbtn">
+                                            <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+                                                Comprar
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Mobile -->
+                <div class="wrap-side-menu" >
+                    <nav class="side-menu">
+                        <ul class="main-menu">
+                            <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+                                <span class="topbar-child1">
+                                </span>
+                            </li>
+
+                            <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+                                <div class="topbar-child2-mobile">
+                                    <span class="topbar-email">
+                                        casadelostaladros@mail.com
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="item-topbar-mobile p-l-10">
+                                <div class="topbar-social-mobile">
+                                    <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                                    <a href="#" class="topbar-social-item fa fa-twitter"></a>
+                                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                                </div>
+                            </li>
+                            <li class="item-menu-mobile"><a href="index.html">Inicio</a></li>
+                            <li class="item-menu-mobile" onclick="emp();"><a href="#">Nosotros</a></li>
+                            <li class="item-menu-mobile" onclick="prod();"><a href="#">Maquinas</a></li>
+                            <li class="item-menu-mobile" onclick="accs();"><a href="#">Accesorios y Repuestos</a></li>
+                            <!--<li class="item-menu-mobile"><a href="cart.html">Repuestos</a></li>-->
+                            <li class="item-menu-mobile" onclick="serv();"><a href="#">Servicios</a></li>
+                            <li class="item-menu-mobile" onclick="nove();"><a href="#">Novedades</a></li>
+                        </ul>                     
+                    </nav>
+                </div>
+            </header>
+
+            <!--Contenido-->
+
+            <div id="main" class="container-fluid">
+
+                <section class="slide1">
+                    <div class="wrap-slick1">
+                        <div class="slick1">
+                            <div class="item-slick1 item1-slick1" style="background-image: url(images/fondos/makita.jpg);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+                                        Makita
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+                                        <!--Productos y Servicios-->
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+                                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Comprar Ahora
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item-slick1 item2-slick1" style="background-image: url(images/fondos/bosch.jpg);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
+                                        Bosch
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
+                                        <!--Productos y Servicios-->
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
+                                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Comprar Ahora
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item-slick1 item3-slick1" style="background-image: url(images/fondos/stanley.jpg);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                                        Stanley
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                                        <!--Productos y Servicios-->
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Comprar Ahora
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item-slick1 item4-slick1" style="background-image: url(images/fondos/skil.jpg);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInUpRight">
+                                        Skil
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInDownRight">
+                                        <!--Productos y Servicios-->
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInDown">
+                                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Comprar Ahora
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item-slick1 item5-slick1" style="background-image: url(images/fondos/dewalt.jpg);">
+                                <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                                    <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                                        Dewalt
+                                    </span>
+
+                                    <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateIn">
+                                        <!--Productos y Servicios-->
+                                    </h2>
+
+                                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateInDownRight">
+                                        <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                            Comprar Ahora
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>            
+
+                <section class="newproduct bgwhite p-t-45 p-b-105">
+                    <div class="container">
+                        <div class="sec-title p-b-60">
+                            <h3 class="m-text5 t-center">
+                                Productos Destacados
+                            </h3>
+                        </div>
+
+                        <!-- Slide2 -->
+                        <div class="wrap-slick2">
+                            <div class="slick2">
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                            <img src="images/productos/canulado-da331dwe-2.jpg" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Taladro canulado Makita DA331DWE
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 2.200.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                            <img src="images/productos/sierra-caladora-dewalt.jpg" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Sierra caladora DeWalt DW331K
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 1.350.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                            <img src="images/productos/Taladro_Stanley_10.jpg" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Taladro atornillador Stanley 10.8v
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 480.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+                                            <img src="images/productos/amoladora_bosch.png" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Amoladora Bosch GWS20-230 2000W
+                                            </a>
+
+                                            <span class="block2-oldprice m-text7 p-r-5">
+                                                Gs. 1.000.000
+                                            </span>
+
+                                            <span class="block2-newprice m-text8 p-r-5">
+                                                Gs. 880.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                            <img src="images/productos/Rotomartillo_Makita_HR2470.png" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Rotomartillo Makita HR2470
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 695.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                            <img src="images/productos/rotomartillo-skil.jpg" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Rotomartillo Skil 1559 600W
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 430.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                            <img src="images/productos/Taladro_Bosch_13.png" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Taladro Bosch GSB550RE 13mm
+                                            </a>
+
+                                            <span class="block2-price m-text6 p-r-5">
+                                                Gs. 310.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item-slick2 p-l-15 p-r-15">
+                                    <div class="block2">
+                                        <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                            <img src="images/productos/amoladora_makita.png" alt="IMG-PRODUCT">
+
+                                            <div class="block2-overlay trans-0-4">
+                                                <div class="block2-btn-addcart w-size1 trans-0-4">
+                                                    <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                                        Agregar al carrito
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="block2-txt p-t-20">
+                                            <a onclick="detalle();" class="block2-name dis-block s-text3 p-b-5">
+                                                Amoladora Makita 9557 41/2'' 840W
+                                            </a>
+
+                                            <span class="block2-oldprice m-text7 p-r-5">
+                                                Gs. 345.000
+                                            </span>
+
+                                            <span class="block2-newprice m-text8 p-r-5">
+                                                Gs. 295.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>        
+
+                <section class="shipping bgwhite">
+                    <div class="flex-w p-l-15 p-r-15">
+                        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                            <h4 class="m-text12 t-center">
+                                Representantes en Paraguay
+                            </h4>
+
+                            <span class="s-text11 t-center">
+                                Las marcas mas importantes estan aqui
+                            </span>
+                        </div>
+
+                        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
+                            <h4 class="m-text12 t-center">
+                                Productos y Servicios
+                            </h4>
+
+                            <span class="s-text11 t-center">
+                                Soluciones de todo tipo en herramientas y accesorios
+                            </span>
+                        </div>
+
+                        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                            <h4 class="m-text12 t-center">
+                                Apertura de Tienda
+                            </h4>
+
+                            <span class="s-text11 t-center">
+                                Abierto de Lunes a Sabado
+                            </span>
+                        </div>
+                    </div>
+                </section>      
+
+                <!-- Catalogos -->
+                <section class=" catalogo p-t-20 animated visible-true m-b-15" data-appear="rotateInDownLeft">
+                    <div class="sec-title p-b-52 p-l-15 p-r-15">
+                        <h3 class="m-text5 t-center">
+                            Catalogos
+                        </h3>
+                    </div>
+
+                    <div class="flex-w">
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/makita_catalog.jpg" alt="IMG">                      
+
+                            <a href="http://cdn.makitatools.com/apps/wms/catalogs/referencecatalog/ReferenceCatalogEnglish/files/assets/basic-html/page-1.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>      
+                                
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca Makita
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/bosch_catalog.jpg"  alt="IMG">
+
+                            <a href="https://www.boschtools.com/us/en/more/news-and-extras/bosch-product-catalog/"  onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>
+
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca Bosch
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/skil_catalog.jpg"  alt="IMG">
+
+                            <a href="http://www.herramientasindustrialesas.com/assets/skil/"  onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>
+
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca SKIL
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/dewalt_catalog.jpg"  alt="IMG">
+
+                            <a href="http://www.dewalt.es/partage/brochures-ES/DW_CATALOGO_2018_ES.pdf" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>
+
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca DeWalt
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/Black&Decker_catalog.jpg"  alt="IMG">
+
+                            <a href="https://www.blackanddecker.es/es-es/products/all-categories" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>
+
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca Black & Decker
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="block4 wrap-pic-w">
+                            <img src="images/fondos/freud_catalog.jpg"  alt="IMG">
+
+                            <a href="https://www.freud.it/global/media/countrypool/product/catalogues_pdf/fr_csb_catalogue_mkfrm_146_rev01_esp-ptg_low_psw.pdf"  onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" class="block4-overlay sizefull ab-t-l trans-0-4">
+                                <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
+                                    <i class="icon_document_alt fs-20 p-r-12" aria-hidden="true"></i>
+                                </span>
+
+                                <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
+                                    <p class="s-text10 m-b-15 h-size1 of-hidden">
+                                        Catalogo de productos de la marca Freud
+                                    </p>
+
+                                    <span class="s-text9">
+                                        
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>          
+
+            </div>      
+
+            <div id="producto">
+                <iframe id="frame1" class="frames"></iframe>
+            </div>
+            <div id="accesorio">
+                <iframe id="frame2" class="frames"></iframe>
+            </div>
+            <div id="detproducto">
+                <iframe id="frame3" class="frames"></iframe>
+            </div>
+            <div id="relprod">
+                <iframe id="frame4" class="frames"></iframe>
+            </div>
+            <div id="carrito">
+                <iframe id="frame5" class="frames"></iframe>
+            </div>
+            <div id="empresa">
+                <iframe id="frame6" class="frames"></iframe>
+            </div>
+            <div id="servicio">
+                <iframe id="frame7" class="frames"></iframe>
+            </div>
+            <div id="user">
+                <iframe id="frame8" class="frames"></iframe>
+            </div>
+            <div id="novedades">
+                <iframe id="frame9" class="frames"></iframe>
+            </div>
+
+            <!-- Footer -->
+            <footer class="bg9 p-t-45 p-b-43 p-l-45 p-r-45">
+                <div class="flex-w p-b-20">
+                    <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+                        <h4 class="s-text8 p-b-30">
+                            Contactanos
+                        </h4>
+
+                        <div>
+                            <p class="s-text8 w-size27">
+                                Santa Cruz de la Sierra 2013 c/ Jose A. Flores - Asuncion
+                            </p>
+                            <p class="s-text8 w-size27">
+                                (021) 615-628 / 621-629  -  (0981) 428-781     
+                            </p>
+
+                            <div class="flex-m p-t-30">
+                                <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                                <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                                <a href="#" class="topbar-social-item fa fa-twitter"></a>
+                                <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+                        <h4 class="s-text8 p-b-30">
+                            Acceso Rapido
+                        </h4>
+
+                        <ul>
+                            <li class="p-b-9">
+                                <a href="#" class="s-text8">
+                                    Productos
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text8">
+                                    Servicios
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text8">
+                                    Accesorios
+                                </a>
+                            </li>
+
+                            <li class="p-b-9">
+                                <a href="#" class="s-text8">
+                                    Carro de Compras
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
+                        <h4 class="s-text8 p-b-10">
+                            Chat Online
+                        </h4>
+                        <form>
+                            <div class="w-size2 p-t-20">
+                                <button class="flex-c-m size1 bg4 bo-rad-23 hov1 m-text3 trans-0-4" onclick="fbm('https://m.me/MauroLRondan');">
+                                    Facebook
+                                </button>
+                            </div>
+                            <div class="w-size2 p-t-20">
+                                <button class="flex-c-m size1 bg4 bo-rad-23 hov1 m-text3 trans-0-4" onclick="wtp('https://api.whatsapp.com/send?phone=+595983381225&text=Hola%20quiero%20info%20acerca%20de%20sus%20productos');">
+                                    Whatsapp
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="t-center p-l-15 p-r-15">
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/paypal.png" alt="IMG-PAYPAL">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/visa.png" alt="IMG-VISA">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/mastercard.png" alt="IMG-MASTERCARD">
+                    </a>
+
+                    <a href="#">
+                        <img class="h-size2" src="images/icons/express.png" alt="IMG-EXPRESS">
+                    </a>
+
+                    <div class="t-center s-text8 p-t-20">
+                        Copyright © 2018 Todos los derechos reservados | Developed by Nosotros
+                    </div>
+                </div>
+            </footer>
+
+            <div class="btn-back-to-top bg0-hov" id="myBtn">
+                <span class="symbol-btn-back-to-top">
+                    <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                </span>
+            </div>
+
+            <div id="dropDownSelect1"></div>            
+
+        </div>
+
+        <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+        <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/slick-custom.js"></script>
+        <script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+        <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+        <script type="text/javascript" src="vendor/sweetalert/sweetalert.min.js"></script>
+        <script type="text/javascript">
+                                    $('.block2-btn-addcart').each(function () {
+                                        var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+                                        $(this).on('click', function () {
+                                            swal(nameProduct, "Agregado al carrito !", "success");
+                                        });
+                                    });
+                                    $(window).resize(function () {
+                                        var ancho = $(window).width();
+                                        if (ancho <= 576) {
+                                            $("#producto").css({"height": "4120px"});
+                                            $("#accesorio").css({"height": "4120px"});
+                                            $("#detproducto").css({"height": "1180px"});
+                                            $("#relprod").css({"height": "770px"});
+                                            $("#carrito").css({"height": "1150px"});
+                                            $("#empresa").css({"height": "1150px"});
+                                            $("#servicio").css({"height": "4000px"});
+                                            $("#user").css({"height": "1250px"});
+                                        } else if (ancho > 576 & ancho <= 768) {
+                                            $("#producto").css({"height": "3310px"});
+                                            $("#accesorio").css({"height": "3310px"});
+                                            $("#detproducto").css({"height": "1340px"});
+                                            $("#relprod").css({"height": "750px"});
+                                            $("#carrito").css({"height": "1150px"});
+                                            $("#empresa").css({"height": "1150px"});
+                                            $("#servicio").css({"height": "2850px"});
+                                            $("#user").css({"height": "1150px"});
+                                        } else if (ancho > 768 & ancho <= 992) {
+                                            $("#producto").css({"height": "1800px"});
+                                            $("#accesorio").css({"height": "1800px"});
+                                            $("#detproducto").css({"height": "850px"});
+                                            $("#relprod").css({"height": "700px"});
+                                            $("#carrito").css({"height": "1150px"});
+                                            $("#empresa").css({"height": "1150px"});
+                                            $("#servicio").css({"height": "2600px"});
+                                            $("#user").css({"height": "700px"});
+                                        } else {
+                                            $("#producto").css({"height": "1420px"});
+                                            $("#accesorio").css({"height": "1420px"});
+                                            $("#detproducto").css({"height": "750px"});
+                                            $("#relprod").css({"height": "700px"});
+                                            $("#carrito").css({"height": "1150px"});
+                                            $("#empresa").css({"height": "1150px"});
+                                            $("#servicio").css({"height": "2540px"});
+                                            $("#user").css({"height": "650px"});
+                                        }
+                                    });
+        </script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
